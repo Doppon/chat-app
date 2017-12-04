@@ -20,4 +20,4 @@ ActiveRecord::Schema.define(version: 20171203112639) do
 
 end
 
-# migrateしたらできるファイル <- どの地点で出来るか忘れてたのでメモ
+# migrateしたときに生成されるコード
