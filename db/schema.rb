@@ -19,5 +19,3 @@ ActiveRecord::Schema.define(version: 20171203112639) do
   end
 
 end
-
-# migrateしたときに生成されるコード
