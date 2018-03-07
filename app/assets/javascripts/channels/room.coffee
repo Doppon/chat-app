@@ -8,5 +8,5 @@ App.room = App.cable.subscriptions.create "RoomChannel",
   received: (data) ->
     alert data['message']
 
-  speak: ->
+  speak: (message) ->
     @perform 'speak', message: message
